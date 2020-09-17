@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7D17997C-52F3-4053-8DF7-1B04A7ACFE4B}" SchemaVersion="94">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{7D17997C-52F3-4053-8DF7-1B04A7ACFE4B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="TestGame" ID="{8728CE11-2CF8-46AF-8A79-F4D31DB54BD1}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Goal" ID="{F76710B3-0329-4112-B6CD-32794DD90CAB}" WorkUnitID="{68EEC192-0A49-4D29-95F0-98AD9161A098}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Collision" ID="{12FB67E4-713C-41BD-9BDD-68173042E55D}" WorkUnitID="{68EEC192-0A49-4D29-95F0-98AD9161A098}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayerMovement_End" ID="{4EF6FFC4-2361-420B-A51B-A41DBB03C600}" WorkUnitID="{68EEC192-0A49-4D29-95F0-98AD9161A098}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Death_Fall" ID="{D1B3356E-D527-42C8-8214-7670B59FC92B}" WorkUnitID="{68EEC192-0A49-4D29-95F0-98AD9161A098}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Obstacle_Pass" ID="{6292AA45-9D62-4508-90CC-00B5E4CB0653}" WorkUnitID="{68EEC192-0A49-4D29-95F0-98AD9161A098}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Win_Music" ID="{935FEDC5-F11B-468B-B0F9-C01F984EB279}" WorkUnitID="{68EEC192-0A49-4D29-95F0-98AD9161A098}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Level_Music_End" ID="{031440B5-CD32-4752-A599-596ABE913B97}" WorkUnitID="{68EEC192-0A49-4D29-95F0-98AD9161A098}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Level_Music" ID="{BE4C80C4-6113-47EA-9EAF-501F43D92CBE}" WorkUnitID="{68EEC192-0A49-4D29-95F0-98AD9161A098}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayerMovement" ID="{D3BC5DE9-9BB1-49F5-93A4-84F238DF5482}" WorkUnitID="{68EEC192-0A49-4D29-95F0-98AD9161A098}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

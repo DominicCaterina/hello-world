@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20b5092ec47a7804ba9380f4a15cbf18, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: a5ccd3fb2fbd144c878327a5771ad4e5
+    GuidInternal: 
+    m_lastTime: -8586020938684218730
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 337ba5b120aeb0429c56e480a47ff11c
+    GuidInternal: 
+    m_lastTime: -8586020938684657674
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 7c99177df35253408df71b04a7acfe4b
+    GuidInternal: 
+    m_lastTime: -8586020202484277375
+    List:
+    - name: TestGame
+      guid: 11ce2887f82caf468a79f4d31db54bd1
+      id: 212514547
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: TestGame
+        ObjectType: 7
+      Path: Default Work Unit\TestGame
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 92c1ee68490a294d95f098ad9161a098
+    GuidInternal: 
+    m_lastTime: -8586020106287509633
+    List:
+    - name: Collision
+      guid: e467fb123c71bd419bdd68173042e55d
+      id: 1792046091
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Collision
+        ObjectType: 3
+      Path: Default Work Unit\Collision
+      maxAttenuation: 0
+      maxDuration: 5.534608
+      minDuration: 5.534608
+    - name: Death_Fall
+      guid: 6e35b3d127d5c84282147670b59fc92b
+      id: 936822103
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Death_Fall
+        ObjectType: 3
+      Path: Default Work Unit\Death_Fall
+      maxAttenuation: 0
+      maxDuration: 6.469327
+      minDuration: 6.469327
+    - name: Goal
+      guid: b31067f729031241b6cd32794dd90cab
+      id: 567967104
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Goal
+        ObjectType: 3
+      Path: Default Work Unit\Goal
+      maxAttenuation: 0
+      maxDuration: 3.761406
+      minDuration: 3.761406
+    - name: Level_Music
+      guid: c4804cbe1361ea479eaf501f43d92cbe
+      id: 1244594577
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Level_Music
+        ObjectType: 3
+      Path: Default Work Unit\Level_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Level_Music_End
+      guid: b540140332cd5247a599596abe913b97
+      id: 4147014035
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Level_Music_End
+        ObjectType: 3
+      Path: Default Work Unit\Level_Music_End
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Obstacle_Pass
+      guid: 45aa9262629d084590cc00b5e4cb0653
+      id: 4251110498
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Obstacle_Pass
+        ObjectType: 3
+      Path: Default Work Unit\Obstacle_Pass
+      maxAttenuation: 0
+      maxDuration: 1.330122
+      minDuration: 0.909394
+    - name: PlayerMovement
+      guid: e95dbcd3b19bf54993a484f238df5482
+      id: 1350496757
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PlayerMovement
+        ObjectType: 3
+      Path: Default Work Unit\PlayerMovement
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayerMovement_End
+      guid: c4fff64e61230b42a51ba41dbb03c600
+      id: 1147489399
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PlayerMovement_End
+        ObjectType: 3
+      Path: Default Work Unit\PlayerMovement_End
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Win_Music
+      guid: c5ed5f931bf18b46b0f9c01f984eb279
+      id: 3475929897
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Win_Music
+        ObjectType: 3
+      Path: Default Work Unit\Win_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 50629721a98ab744807b13b7a728ffd4
+    GuidInternal: 
+    m_lastTime: -8586020741575593205
+    List:
+    - name: EndLevel
+      guid: bdeebf6f1b3d9043a3d9e5d1a60f745d
+      id: 1054659462
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: EndLevel
+        ObjectType: 13
+      Path: Default Work Unit\EndLevel
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 9995a79a57ef024fb6af10cc89331621
+    GuidInternal: 
+    m_lastTime: -8586020938684887060
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 26a26e157a56c847aa7b948d1e15e70e
+    GuidInternal: 
+    m_lastTime: -8586020938684966835
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 5875b1974efa5947a189183f48daf013
+    GuidInternal: 
+    m_lastTime: -8586020938683241355
+    List: []
+  ExpandedItems:
+  - /TestUnityProject_WwiseProject
+  - /TestUnityProject_WwiseProject/Events
+  - /TestUnityProject_WwiseProject/Events/Default Work Unit
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

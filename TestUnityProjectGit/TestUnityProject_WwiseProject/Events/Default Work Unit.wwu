@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{68EEC192-0A49-4D29-95F0-98AD9161A098}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{68EEC192-0A49-4D29-95F0-98AD9161A098}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Collision" ID="{12FB67E4-713C-41BD-9BDD-68173042E55D}">
+					<ChildrenList>
+						<Action Name="" ID="{DEE8DF9E-2F51-45AD-BF5D-A63381564572}" ShortID="787109035">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Collison" ID="{71378C8A-B8FC-43EA-BF25-D9CBED66C6BF}" WorkUnitID="{987EB473-3B98-4744-A82F-C11655E9DD6A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2D895BC2-8E42-4553-A7CF-FF276FE122B6}" ShortID="905280692">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Death_Collision" ID="{B29DDCEF-5921-4B44-87D4-D0499CD69352}" WorkUnitID="{987EB473-3B98-4744-A82F-C11655E9DD6A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayerMovement" ID="{D3BC5DE9-9BB1-49F5-93A4-84F238DF5482}">
+					<ChildrenList>
+						<Action Name="" ID="{8307F6D5-E424-4B76-9932-BE8EDB37D18A}" ShortID="749527530">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EndLevel" ID="{50EC4D0D-D36C-4E22-B583-8595E1562915}" WorkUnitID="{987EB473-3B98-4744-A82F-C11655E9DD6A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{264F1152-309B-4227-8CE1-44CB0F89E2CC}" ShortID="521267052">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SynthGoal" ID="{E44AE84F-48AC-447E-98C0-3146F9C87B01}" WorkUnitID="{987EB473-3B98-4744-A82F-C11655E9DD6A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayerMovement_End" ID="{4EF6FFC4-2361-420B-A51B-A41DBB03C600}">
+					<ChildrenList>
+						<Action Name="" ID="{271F9EE0-02D8-41FA-8E31-B8BBFA792763}" ShortID="662468818">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EndLevel" ID="{50EC4D0D-D36C-4E22-B583-8595E1562915}" WorkUnitID="{987EB473-3B98-4744-A82F-C11655E9DD6A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A0FEC7CC-4B08-4B1B-B7FD-F53DA8C1F590}" ShortID="726517093">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SynthGoal" ID="{E44AE84F-48AC-447E-98C0-3146F9C87B01}" WorkUnitID="{987EB473-3B98-4744-A82F-C11655E9DD6A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Goal" ID="{F76710B3-0329-4112-B6CD-32794DD90CAB}">
+					<ChildrenList>
+						<Action Name="" ID="{41DF72D2-DAC3-4A0E-AB33-467E2614DC23}" ShortID="475733106">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Goal" ID="{2F9685E0-2971-4D63-A5DC-F5C3B45AF225}" WorkUnitID="{987EB473-3B98-4744-A82F-C11655E9DD6A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Obstacle_Pass" ID="{6292AA45-9D62-4508-90CC-00B5E4CB0653}">
+					<ChildrenList>
+						<Action Name="" ID="{69615592-C91E-4BFA-88A3-868F39A15ACF}" ShortID="575472855">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PassBy_03" ID="{92337EB0-C571-4FD4-8B52-6736D08298B2}" WorkUnitID="{987EB473-3B98-4744-A82F-C11655E9DD6A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Level_Music" ID="{BE4C80C4-6113-47EA-9EAF-501F43D92CBE}">
+					<ChildrenList>
+						<Action Name="" ID="{E473F04B-D35D-4CBB-B6DF-8A7C5706A4A7}" ShortID="487766993">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Level_Music" ID="{EED4E109-EA12-46DF-BF75-2267CF54C2E4}" WorkUnitID="{E76E9B18-E77D-4FB3-90CC-657FED8B27BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Level_Music_End" ID="{031440B5-CD32-4752-A599-596ABE913B97}">
+					<ChildrenList>
+						<Action Name="" ID="{F3DB231A-F7AC-4327-A233-06259E7566DA}" ShortID="764600255">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.8"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Level_Music" ID="{EED4E109-EA12-46DF-BF75-2267CF54C2E4}" WorkUnitID="{E76E9B18-E77D-4FB3-90CC-657FED8B27BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Win_Music" ID="{935FEDC5-F11B-468B-B0F9-C01F984EB279}">
+					<ChildrenList>
+						<Action Name="" ID="{3D273E9C-67C7-478C-A14A-AC97531E4EB0}" ShortID="307193568">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Win_Music" ID="{587AF6A5-4E17-41FB-8122-D87DF1AEAED4}" WorkUnitID="{E76E9B18-E77D-4FB3-90CC-657FED8B27BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Death_Fall" ID="{D1B3356E-D527-42C8-8214-7670B59FC92B}">
+					<ChildrenList>
+						<Action Name="" ID="{9520973D-C32B-474B-9675-BBE54FCF2E2F}" ShortID="71091517">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Death" ID="{894BC656-4505-4B4E-9792-FD86EB4159FF}" WorkUnitID="{987EB473-3B98-4744-A82F-C11655E9DD6A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{526839CA-705E-44A1-995E-35646C458B86}" ShortID="929292660">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Death_Collision" ID="{B29DDCEF-5921-4B44-87D4-D0499CD69352}" WorkUnitID="{987EB473-3B98-4744-A82F-C11655E9DD6A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

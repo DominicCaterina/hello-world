@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>C:\Users\domin\Documents\Games\TestUnityProject\TestUnityProject_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\domin\Documents\Games\TestUnityProject\TestUnityProject_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\domin\Documents\Games\TestUnityProject\TestUnityProject_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\domin\Documents\Games\TestUnityProject\TestUnityProject_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="212514547" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\TestGame</ObjectPath>
+			<ShortName>TestGame</ShortName>
+			<Path>TestGame.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1792046091" Name="Collision" ObjectPath="\Events\Default Work Unit\Collision" DurationType="OneShot" DurationMin="5.534608" DurationMax="5.534608"/>
+				<Event Id="936822103" Name="Death_Fall" ObjectPath="\Events\Default Work Unit\Death_Fall" DurationType="OneShot" DurationMin="6.469327" DurationMax="6.469327"/>
+				<Event Id="567967104" Name="Goal" ObjectPath="\Events\Default Work Unit\Goal" DurationType="OneShot" DurationMin="3.761406" DurationMax="3.761406"/>
+				<Event Id="1244594577" Name="Level_Music" ObjectPath="\Events\Default Work Unit\Level_Music" DurationType="Infinite"/>
+				<Event Id="4147014035" Name="Level_Music_End" ObjectPath="\Events\Default Work Unit\Level_Music_End" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4251110498" Name="Obstacle_Pass" ObjectPath="\Events\Default Work Unit\Obstacle_Pass" DurationType="OneShot" DurationMin="0.909394" DurationMax="1.330122"/>
+				<Event Id="1350496757" Name="PlayerMovement" ObjectPath="\Events\Default Work Unit\PlayerMovement" DurationType="Infinite"/>
+				<Event Id="1147489399" Name="PlayerMovement_End" ObjectPath="\Events\Default Work Unit\PlayerMovement_End" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3475929897" Name="Win_Music" ObjectPath="\Events\Default Work Unit\Win_Music" DurationType="Infinite"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="5341180" Language="SFX">
+					<ShortName>BruteJam V6.wav</ShortName>
+					<Path>SFX\BruteJam V6_3E618D05.wem</Path>
+				</File>
+				<File Id="212242236" Language="SFX">
+					<ShortName>Passby V3-3.wav</ShortName>
+					<Path>SFX\Passby V3-3_8EE21B35.wem</Path>
+				</File>
+				<File Id="215237998" Language="SFX">
+					<ShortName>App, Alert Tone 25 SND14991.wav</ShortName>
+					<Path>SFX\App, Alert Tone 25 SND14991_10C4C929.wem</Path>
+				</File>
+				<File Id="288315357" Language="SFX">
+					<ShortName>Passby V3-1.wav</ShortName>
+					<Path>SFX\Passby V3-1_8EE21B35.wem</Path>
+				</File>
+				<File Id="315881067" Language="SFX">
+					<ShortName>Passby V3-2.wav</ShortName>
+					<Path>SFX\Passby V3-2_8EE21B35.wem</Path>
+				</File>
+				<File Id="317159003" Language="SFX">
+					<ShortName>Aircraft, Jet, F18, Super Hornet, Jet, Fly By 1 SND13619.wav</ShortName>
+					<Path>SFX\Aircraft, Jet, F18, Super Hornet, Jet, Fly By 1 SND13619_A1F4C3D5.wem</Path>
+				</File>
+				<File Id="770867747" Language="SFX">
+					<ShortName>You Win.wav</ShortName>
+					<Path>SFX\You Win_D79FB2B7.wem</Path>
+				</File>
+				<File Id="778364700" Language="SFX">
+					<ShortName>BruteJam V6.wav</ShortName>
+					<Path>SFX\BruteJam V6_268456FB.wem</Path>
+				</File>
+				<File Id="917719703" Language="SFX">
+					<ShortName>china3 l.wav</ShortName>
+					<Path>SFX\china3 l_10C4C929.wem</Path>
+				</File>
+				<File Id="1027360255" Language="SFX">
+					<ShortName>Flutter.wav</ShortName>
+					<Path>SFX\Flutter_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

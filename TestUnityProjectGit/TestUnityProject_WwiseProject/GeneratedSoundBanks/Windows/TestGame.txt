@@ -1,0 +1,29 @@
+Event	ID	Name			Wwise Object Path	Notes
+	567967104	Goal			\Default Work Unit\Goal	
+	936822103	Death_Fall			\Default Work Unit\Death_Fall	
+	1147489399	PlayerMovement_End			\Default Work Unit\PlayerMovement_End	
+	1244594577	Level_Music			\Default Work Unit\Level_Music	
+	1350496757	PlayerMovement			\Default Work Unit\PlayerMovement	
+	1792046091	Collision			\Default Work Unit\Collision	
+	3475929897	Win_Music			\Default Work Unit\Win_Music	
+	4147014035	Level_Music_End			\Default Work Unit\Level_Music_End	
+	4251110498	Obstacle_Pass			\Default Work Unit\Obstacle_Pass	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1054659462	EndLevel			\Default Work Unit\EndLevel	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	449023394	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\SynthGoal\Wwise Synth One	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	5341180	Death	C:\Users\domin\Documents\Games\TestUnityProject\TestUnityProject_WwiseProject\.cache\Windows\SFX\BruteJam V6_3E618D05.wem		\Actor-Mixer Hierarchy\Default Work Unit\Death		1184576
+	212242236	Passby V3-3	C:\Users\domin\Documents\Games\TestUnityProject\TestUnityProject_WwiseProject\.cache\Windows\SFX\Passby V3-3_8EE21B35.wem		\Actor-Mixer Hierarchy\Default Work Unit\PassBy_03\Passby V3-3		112096
+	215237998	Goal	C:\Users\domin\Documents\Games\TestUnityProject\TestUnityProject_WwiseProject\.cache\Windows\SFX\App, Alert Tone 25 SND14991_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goal		722252
+	288315357	Passby V3-1	C:\Users\domin\Documents\Games\TestUnityProject\TestUnityProject_WwiseProject\.cache\Windows\SFX\Passby V3-1_8EE21B35.wem		\Actor-Mixer Hierarchy\Default Work Unit\PassBy_03\Passby V3-1		104096
+	315881067	Passby V3-2	C:\Users\domin\Documents\Games\TestUnityProject\TestUnityProject_WwiseProject\.cache\Windows\SFX\Passby V3-2_8EE21B35.wem		\Actor-Mixer Hierarchy\Default Work Unit\PassBy_03\Passby V3-2		112096
+	317159003	EndLevel	C:\Users\domin\Documents\Games\TestUnityProject\TestUnityProject_WwiseProject\.cache\Windows\SFX\Aircraft, Jet, F18, Super Hornet, Jet, Fly By 1 SND13619_A1F4C3D5.wem		\Actor-Mixer Hierarchy\Default Work Unit\EndLevel		507060
+	770867747	You Win	C:\Users\domin\Documents\Games\TestUnityProject\TestUnityProject_WwiseProject\.cache\Windows\SFX\You Win_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Win_Music\Fanfare\You Win		2633208
+	778364700	Death_Collision	C:\Users\domin\Documents\Games\TestUnityProject\TestUnityProject_WwiseProject\.cache\Windows\SFX\BruteJam V6_268456FB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Death_Collision		323712
+	917719703	Collison	C:\Users\domin\Documents\Games\TestUnityProject\TestUnityProject_WwiseProject\.cache\Windows\SFX\china3 l_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Collison		529332
+	1027360255	Flutter	C:\Users\domin\Documents\Games\TestUnityProject\TestUnityProject_WwiseProject\.cache\Windows\SFX\Flutter_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Level_Music\Level_Music\Flutter		9133040
+
